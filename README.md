@@ -1,5 +1,5 @@
 # Library - MVC sample
-MVC example in php
+MVC example in PHP
 
 ## Tools
 MariaDB / PHP8 / CSS3
