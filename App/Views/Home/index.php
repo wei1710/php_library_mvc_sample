@@ -1,5 +1,5 @@
-<?php include dirname(__DIR__) . '../Base/header.php'; ?>
-<?php include dirname(__DIR__) . '../Base/nav.php'; ?>
+<?php include dirname(__DIR__) . '/Base/header.php'; ?>
+<?php include dirname(__DIR__) . '/Base/nav.php'; ?>
     <main>
         <p>Welcome to Library <?=$library ?>, in the future <?=$futureLibrary ?></p>
         <section>
@@ -13,4 +13,4 @@
             </ul>
         </section>
     </main>
-<?php include dirname(__DIR__) . '../Base/footer.php'; ?>
+<?php include dirname(__DIR__) . '/Base/footer.php'; ?>

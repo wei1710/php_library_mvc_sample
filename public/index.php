@@ -16,6 +16,12 @@ spl_autoload_register(function ($class) {
 });
 
 /**
+ * Custom error and exception handling
+ */
+set_error_handler('Core\Error::errorHandler');
+set_exception_handler('Core\Error::exceptionHandler');
+
+/**
  * Routing
  */
 $router = new Core\Router();

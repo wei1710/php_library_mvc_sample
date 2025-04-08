@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /php_mvc_library_sample/public
+RewriteBase /php_library_mvc_sample/public
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
