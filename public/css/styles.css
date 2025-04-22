@@ -13,6 +13,20 @@ nav > ul {
     }
 }
 
+/* Book card */
+article.card {
+    h3, h4 {
+        display: inline-block;
+        margin: 0;
+    }
+    h4:before { content: '('; }
+    h4:after { content: ')'; }
+
+    header+p {
+        margin-top: 0;
+    }
+}
+
 #error {
     border: thick solid var(--colorError);
     border-radius: 1rem;

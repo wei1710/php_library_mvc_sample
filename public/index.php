@@ -29,6 +29,10 @@ $router->add('', [
     'controller' => 'Home',
     'action'     => 'index'
 ]);
+$router->add('books', [
+    'controller' => 'Books',
+    'action'     => 'index'
+]);
 
 /**
  * Route dispatch

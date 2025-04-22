@@ -20,7 +20,7 @@ class Error
         }
     }
 
-    public static function exceptionHandler(\Exception $exception): void
+    public static function exceptionHandler(\Throwable $exception): void
     {
         // HTTP status codes are treated
         $code = $exception->getCode();
